@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:getx_skeleton/app/data/local/my_hive.dart';
-import 'package:getx_skeleton/app/data/models/user_model.dart';
+import 'package:ruiyun/app/data/local/my_hive.dart';
+import 'package:ruiyun/app/data/models/user_model.dart';
 
 
 import 'dart:io';

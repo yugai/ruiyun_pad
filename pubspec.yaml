@@ -1,7 +1,7 @@
-name: getx_skeleton
+name: ruiyun
 version: 1.0.0+1
 publish_to: none
-description: start your project in the fastest way
+description: 瑞云Pad版
 environment:
   sdk: '>=3.3.4 <4.0.0'
 
