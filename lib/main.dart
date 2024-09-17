@@ -10,7 +10,6 @@ import 'app/data/models/user_model.dart';
 import 'app/routes/app_pages.dart';
 import 'config/theme/my_theme.dart';
 import 'config/translations/localization_service.dart';
-import 'utils/fcm_helper.dart';
 
 Future<void> main() async {
   // wait for bindings
@@ -26,9 +25,6 @@ Future<void> main() async {
 
   // init shared preference
   await MySharedPref.init();
-
-  // inti fcm services
-  await FcmHelper.initFcm();
 
   // initialize local notifications service
   await AwesomeNotificationsHelper.init();
